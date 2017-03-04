@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My ToDo APP</title>
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<div class="container"> <!--- 总容器开始--->
+    <div class="add-task">
+        <input type="text">
+        <button>submit</button>
+    </div>
+    <div class="task-list"> <!--- 清单列表开始 --->
+        <div class="task-item"> <!--- 任务开始 --->
+            <span><input type="checkbox"></span>
+            <span class="task-content">item content</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div> <!--- 任务结束 --->
+        <div class="task-item">
+            <span><input type="checkbox"></span>
+            <span class="task-content">item content</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div>
+        <div class="task-item">
+            <span><input type="checkbox"></span>
+            <span class="task-content">item content</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div>
+    </div> <!--- 清单列表结束 --->
+    <div class="task-detail"> <!--- 任务详情开始--->
+        <div class="content"> <!--- 任务标题开始--->
+        </div> <!--- 任务标题结束--->
+        <div> <!--- 任务描述开始--->
+            <div class="desc">
+            </div>
+        </div> <!--- 任务描述开始--->
+        <div class="remind"> <!--- 任务定时提醒开始--->
+            <input type="date">
+            <button type="submit">submit</button>
+        </div> <!--- 任务定时提醒结束--->
+    </div> <!--- 任务详情结束--->
+</div> <!--- 总容器结束--->
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="js/base.js"></script>
+</body>
+</html>
