@@ -23,16 +23,25 @@ body
     max-width: 700px;
     margin: 0 auto;
     position: relative;
+    padding: 0 10px;
 }
 
 h1
 {
     text-align: center;
+    font-family: Georgia, Times, Serif;
+    font-size: 250%;
+    word-spacing: 0.2em;
 }
 
 .task-list
 {
     margin: 10px 0;
+}
+
+.fr
+{
+    float:right;
 }
 
 input,
@@ -108,7 +117,7 @@ button
 
 .add-task [type=submit]:hover
 {
-    background:  rgba(255, 255, 255, .2);
+    background: #eee;
 }
 
 .add-task input[type=submit]
@@ -167,4 +176,20 @@ button
     right:0;
     left:0;
     background: rgba(30,30,30,.6);
+}
+
+.task-content
+{
+    margin-left: 10px;
+}
+
+.action
+{
+    color: #888;
+    font-size: 90%;
+}
+
+.action:hover
+{
+    color:#333;
 }
