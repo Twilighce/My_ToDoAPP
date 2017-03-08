@@ -6,7 +6,7 @@
 
     var $form_add_task = $('.add-task')
         , $delete_task
-        , task_list = {}
+        , task_list = []
         ;
 
 
@@ -37,7 +37,7 @@
             var $this = $(this);
             //选中 task_item 这一行
             var $item = $this.parent().parent();
-            var index = delete_task('index');
+            var index = $item.data('index');
 
             var tmp = confirm('确定删除');
             tmp ? delete_task(index) : null;
