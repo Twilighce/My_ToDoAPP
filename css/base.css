@@ -47,6 +47,7 @@ h1
 input,
 .task-item,
 .task-detail-mask,
+.task-detail,
 textarea,
 button
 {
@@ -148,7 +149,7 @@ button
 
 .task-detail
 {
-    background: #fff;
+    background: #ccc;
     color: #333;
     width: 50%;
     height: 100%;
@@ -171,11 +172,12 @@ button
 
 .task-detail-mask
 {
+    position: fixed;
     top:0;
     bottom:0;
     right:0;
     left:0;
-    background: rgba(30,30,30,.6);
+    /*background: rgba(30,30,30,.6);*/
 }
 
 .task-content
