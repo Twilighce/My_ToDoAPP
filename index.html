@@ -1,73 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>My ToDo APP</title>
-    <!--- 引入下 normalize库 --->
-    <link ref="stylesheet" href="node_modules/normalize.css/normalize.css">
-    <link ref="stylesheet" href="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.min.css">
+    <title>My Todo App</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.min.css">
     <link rel="stylesheet" href="css/base.css">
 </head>
-
 <body>
-
 <div class="msg">
     <span class="msg-content"></span>
-    <button type="button">知道了</button>
+    <span class="anchor confirmed">知道了</span>
 </div>
-
-<div class="container"> <!--- 总容器开始--->
-
-    <h1>My to do list</h1>
-
+<div class="container"><!-- 总容器开始 -->
+    <h1>My Todo List</h1>
     <form class="add-task">
         <input name="content"
                type="text"
-               placeholder="eg：晚上记得做实验"
-               autofocus;
-               autocomplete="off";
+               placeholder="e.g. 下午记得买菜"
+               autofocus
+               autocomplete="off"
         >
         <button type="submit">submit</button>
     </form>
-
-    <div class="task-list"> <!--- 清单列表开始 --->
-
-        <div class="task-item"> <!--- 任务开始 --->
-            <span><input type="checkbox"></span>
-            <span class="task-content">item content 1</span>
-            <span>delete</span>
-            <span>detail</span>
-        </div> <!--- 任务结束 --->
-
-    </div> <!--- 清单列表结束 --->
-
+    <div class="task-list"><!--清单列表开始-->
+        <!--<div class="task-item">&lt;!&ndash; 任务开始 &ndash;&gt;-->
+        <!--<span><input type="checkbox"></span>-->
+        <!--<span class="task-content">item content 1</span>-->
+        <!--<span>delete</span>-->
+        <!--<span>detail</span>-->
+        <!--</div>&lt;!&ndash; 任务结束 &ndash;&gt;-->
+    </div><!--清单列表结束-->
     <div class="task-detail-mask"></div>
-
-    <div class="task-detail"> <!--- 任务详情开始--->
-        <div>
-            <div class="content"> <!--- 任务标题开始--->
-                晚上记得做实验
-            </div> <!--- 任务标题结束--->
-
-            <div> <!--- 任务描述开始--->
-                <div class="desc">
-                    <textarea id=""></textarea>
-                </div>
-            </div> <!--- 任务描述结束--->
-
-            <div class="remind"> <!--- 任务定时提醒开始--->
-                <input type="date">
-                <!---<button type="submit">submit</button>--->
-            </div> <!--- 任务定时提醒结束--->
-        </div>
-    </div> <!--- 任务详情结束--->
-
-</div> <!--- 总容器结束--->
-
+    <div class="task-detail"><!-- 任务详情开始 -->
+    </div><!-- 任务详情结束 -->
+</div><!-- 总容器结束 -->
+<video class="alerter" src="alert.mp3"></video>
 <script src="node_modules/jquery/dist/jquery.js"></script>
-<script src="node_modules/store2/dist/store2.js"></script>
 <script src="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.full.js"></script>
+<script src="node_modules/store/store.js"></script>
 <script src="js/base.js"></script>
-
 </body>
 </html>

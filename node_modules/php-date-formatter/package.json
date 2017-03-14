@@ -1,0 +1,76 @@
+{
+  "_args": [
+    [
+      "php-date-formatter@>= 1.3.3",
+      "/Users/kev/tut_space/Jquery_todo/source/todo/node_modules/jquery-datetimepicker"
+    ]
+  ],
+  "_from": "php-date-formatter@>=1.3.3",
+  "_id": "php-date-formatter@1.3.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/php-date-formatter",
+  "_nodeVersion": "5.1.0",
+  "_npmOperationalInternal": {
+    "host": "packages-5-east.internal.npmjs.com",
+    "tmp": "tmp/php-date-formatter-1.3.4.tgz_1455808552674_0.5370563480537385"
+  },
+  "_npmUser": {
+    "email": "h.monadjem@haremo.de",
+    "name": "haremo"
+  },
+  "_npmVersion": "3.3.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "php-date-formatter",
+    "raw": "php-date-formatter@>= 1.3.3",
+    "rawSpec": ">= 1.3.3",
+    "scope": null,
+    "spec": ">=1.3.3",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/jquery-datetimepicker"
+  ],
+  "_resolved": "https://registry.npmjs.org/php-date-formatter/-/php-date-formatter-1.3.4.tgz",
+  "_shasum": "09a15ae0766ba0beb1900c27c1ec319ef2e4563e",
+  "_shrinkwrap": null,
+  "_spec": "php-date-formatter@>= 1.3.3",
+  "_where": "/Users/kev/tut_space/Jquery_todo/source/todo/node_modules/jquery-datetimepicker",
+  "author": {
+    "email": "kartikv2@gmail.com",
+    "name": "Kartik Visweswaran"
+  },
+  "bugs": {
+    "url": "https://github.com/kartik-v/php-date-formatter/issues"
+  },
+  "dependencies": {},
+  "description": "A Javascript datetime formatting and manipulation library using PHP date-time formats.",
+  "devDependencies": {},
+  "directories": {
+    "example": "examples"
+  },
+  "dist": {
+    "shasum": "09a15ae0766ba0beb1900c27c1ec319ef2e4563e",
+    "tarball": "https://registry.npmjs.org/php-date-formatter/-/php-date-formatter-1.3.4.tgz"
+  },
+  "gitHead": "8765bc84943e08aaae2d4865c026f57089206986",
+  "homepage": "https://github.com/kartik-v/php-date-formatter",
+  "license": "BSD-3-Clause",
+  "main": "js/php-date-formatter.js",
+  "maintainers": [
+    {
+      "email": "h.monadjem@haremo.de",
+      "name": "haremo"
+    }
+  ],
+  "name": "php-date-formatter",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartik-v/php-date-formatter.git"
+  },
+  "scripts": {},
+  "version": "1.3.4"
+}
