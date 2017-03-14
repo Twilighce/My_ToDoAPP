@@ -1,2 +1,11 @@
 # My_ToDoAPP
-a jQuery-based Web APP, served as a to do list.
+
+HTML + CSS + JS + jQuery 实现的网页端事务管理应用。
+主要实现以下功能：
+
+- 事务添加；
+- 事务删除；
+- 事务修改；
+- 查看事务详情；
+- 标记事务完成；
+- 事务定时提醒
